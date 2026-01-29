@@ -1,5 +1,8 @@
 # Hive Pass
 
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyoukai-rei.github.io%2Fhive-pass%2F&label=visits&icon=bookmarks-fill&color=%23146c43&message=&style=for-the-badge&tz=UTC)
+
+
 # How to install
 
 ## Download
