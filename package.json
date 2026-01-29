@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "markdown-to-html --output index.html --source index.md"
+    },
+    "devDependencies": {
+        "markdown-to-html-cli": "latest"
+    }
+}
