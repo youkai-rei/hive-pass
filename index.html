@@ -84,6 +84,46 @@
     .wrapper > span + span { margin-left: .4rem; }
     `;s.appendChild(a)}i(t,e){this.dispatchEvent(new CustomEvent(t,{bubbles:true,composed:true,detail:e}))}}customElements.define("dark-mode",a);</script><div style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px;max-width: 960px;" class="markdown-style">
     <h1 id="hive-pass"><a class="anchor" aria-hidden="true" tabindex="-1" href="#hive-pass"><span class="octicon octicon-link"></span></a>Hive Pass</h1>
+    <h1 id="how-to-install"><a class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h1>
+    <h2 id="download"><a class="anchor" aria-hidden="true" tabindex="-1" href="#download"><span class="octicon octicon-link"></span></a>Download</h2>
+    <p>Download the modifed hive extension from here: <a href="./extension.zip">modifed hive extension</a></p>
+    <h2 id="extract"><a class="anchor" aria-hidden="true" tabindex="-1" href="#extract"><span class="octicon octicon-link"></span></a>Extract</h2>
+    <p>Extract the downloaded zip file, it should give you a folder named <code>extension</code>.</p>
+    <h2 id="install"><a class="anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+    <ol>
+      <li>
+        <p>Open your browser</p>
+      </li>
+      <li>
+        <p>Go to extensions tab</p>
+      </li>
+    </ol>
+    <p>
+      <img src="./assets/extensions-tab.png" alt="extensions tab" title="Go to Extensions tab">
+    </p>
+    <ol start="3">
+      <li>Enable developer mode</li>
+    </ol>
+    <p>
+      <img src="./assets/dev-mode.png" alt="developer mode" title="Enable Developer mode">
+    </p>
+    <ol start="4">
+      <li>Click on load unpacked</li>
+    </ol>
+    <p>
+      <img src="./assets/load-unpack.png" alt="load unpacked" title="Click on load unpacked">
+    </p>
+    <ol start="5">
+      <li>Select the previously extracted <code>extension</code> folder</li>
+    </ol>
+    <p>
+      <img src="./assets/select-folder.png" alt="select folder" title="Select the extension folder">
+    </p>
+    <h2 id="verify"><a class="anchor" aria-hidden="true" tabindex="-1" href="#verify"><span class="octicon octicon-link"></span></a>Verify</h2>
+    <p>If the install was successful, you will see this small red icon in the extensions page</p>
+    <p>
+      <img src="./assets/diditwork.png" alt="verify" title="Did it work?">
+    </p>
     <script>/*! @uiw/copy-to-clipboard v1.0.12 | MIT (c) 2021 Kenny Wang | https://github.com/uiwjs/copy-to-clipboard.git */
 !function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).copyTextToClipboard=t()}(this,(function(){"use strict";return function(e,t){const o=document.createElement("textarea");o.value=e,o.setAttribute("readonly",""),o.style={position:"absolute",left:"-9999px"},document.body.appendChild(o);const n=document.getSelection().rangeCount>0&&document.getSelection().getRangeAt(0);o.select();let c=!1;try{c=!!document.execCommand("copy")}catch(e){c=!1}document.body.removeChild(o),n&&document.getSelection&&(document.getSelection().removeAllRanges(),document.getSelection().addRange(n)),t&&t(c)}}));
 
