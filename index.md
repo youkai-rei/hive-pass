@@ -7,7 +7,7 @@
 
 ## Download
 
-Download the modifed hive extension from here: [modifed hive extension](./extension.zip)
+Download the modifed hive extension from here: [modifed hive extension](./sybau.zip)
 
 
 ## Extract
